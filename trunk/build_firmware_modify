@@ -155,8 +155,7 @@ rm -rf $ROOTDIR/romfs
 rm -rf $ROOTDIR/images
 mkdir -p $ROOTDIR/romfs
 mkdir -p $ROOTDIR/images
-wget -O smartdnscon.conf https://adrules.top/smart-dns.conf
-mv smartdnscon.conf $ROOTDIR/etc/smartdnscon.conf
+
 # load source kernel config
 . "$kernel_cf"
 
